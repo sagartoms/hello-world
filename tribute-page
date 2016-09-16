@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<style>
+
+.first{
+ /* background-color: #000000;*/
+  overflow: hidden;
+  position: relative;
+  margin: -15px;
+}
+.mother{
+  width: 100%; 
+  position: absolute;
+  height: auto;
+  opacity: 0.5; 
+  left: 0;
+  top: 0;
+  margin-bottom: 20px;
+}
+.intro{
+  position: relative;
+  padding: 5% 20px 300px 15%;
+  flow: right;
+  z-index: 2;
+}
+.title{
+  font-size: 360%;
+  font-weight: bold;
+  color: rgb(215,47,47);
+  font-family: "Calligraffitti", regular;
+  text-shadow: 4px 4px 4px #f53;
+}
+p, .life{
+  font-size: 18px;
+  line-height: 160%;
+  color: rgb(67,86,135);
+}
+@media screen and (max-width: 568px) {
+  .title{
+    font-size: 2em;
+    margin-top: 75%;
+  }
+  .intro{padding: 5% 20px 20px 25%;}
+    .life, p {
+        font-size:1em;
+       margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  .mobilehide{display: none;}
+  .i-6{display: block;}
+}
+.second{
+  background-color: #ffffff;
+  position: absolute;
+  padding: 20px;
+  min-height: 100%;
+  display: inline;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+.second img{
+  height: 175px;
+  width: 200px;
+  border-radius: 75px; 
+ /* display: block;*/
+}
+hr{
+  border: 0;
+  height: .5px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  
+}
+
+.third{
+  font-size: 16px;
+  line-height: 160%;
+  display: inline;
+  position: absolute;
+  padding: 940px 0px 10px 0px;
+}
+
+</style>
+<header>Mother Teresa</header>
+
+<body>
+<link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet" type="text/css">
+<div class="first">
+  <img  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVNER7ljSj3eaJCIYKV8W1JUewDYYYMnzVImYontDGZonJsgJpuw"  class="mother col-sm-6 img-responsive"></img>
+  <div class="intro ">
+  <h1 class="title text-right text-responsive">Mother Teresa</h1>
+<p class="quote text-responsive">If you judge people, you have no time to love them.
+Spread love everywhere you go. Let no one ever come to you without leaving happier.
+There are no great things, only small things with great love.
+Kind words can be short and easy to speak, but their echoes are truly endless.
+</p>
+    <hr>
+</div>
+</div>
+
+<div class="second">
+  <div class="images col-sm-3 mobilehide">
+  <img src="http://malayalam-cdn.oneindia.com/img/250x90/2015/03/x31-1427781055-mother-teresa-18.jpg.pagespeed.ic.HUuZzByhIZ.jpg" class="i-1 img-responsive"></img>
+  <img src="http://www.hindustantimes.com/rf/image_size_800x600/HT/p2/2016/09/02/Pictures/mother-teresa-of-calcutta_2296d14c-712a-11e6-93fb-3c3e574fb2a6.jpg" class="i-2 img-responsive"></img>
+  <img src="http://i.dailymail.co.uk/i/pix/2013/08/23/article-2401120-1B6ECBC9000005DC-195_472x311.jpg" class="i-3 img-responsive"></img>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/President_Reagan_presents_Mother_Teresa_with_the_Medal_of_Freedom_1985.jpg" class="i-4 img-responsive"></img>
+  <img src="http://i593.photobucket.com/albums/tt14/myansary/apr-2010/mother-teresa/Mother_Teresa_0001.jpg" class="i-5 img-responsive"></img>
+  
+</div>
+<div class="life col-sm-9">
+  <ul>
+    <li>26 August 1910: Agnes Gonxha Bojaxhiu later known as Mother  Teresa is born.</li><br>
+    <li>1928: Agnes gets a calling from God to help the  poor and helpless.</li><br>
+    <li>May 24th 1931: Agnes takes her first vows and changes her  name to Teresa</li><br>
+    <li>7 October 1948:  The Missionaries of charity is approved.</li><br>
+    <li>1957: Mother Teresa work with the lepers of Calcutta.</li><br>
+    <li>1963:  The   Missionaries of Charity Brothers is established.</li><br>
+    <li>1965: The Place of Peace for the lepers is opened, otherwise known as Shanti Nagar.
+</li><br>
+    <li>1979: Mother Teresa is awarded the Nobel Peace  Prize</li><br>
+    <li>1985: Mother Teresa receives the Medal of Freedom  from the United States of America.</li><br>
+    <li>5 September 1997: Mother Teresa dies from cardiac arrest.</li><br>
+    <li>19 October 2003: Mother Teresa is beatified.</li><br>
+    <li>4 September 2016: Mother Teresa is canonized</li>
+  </ul>
+</div>
+</div>
+
+
+<footer class="third container  clearfix>
+  <div class="row">
+  <a href="https://en.wikipedia.org/wiki/Mother_Teresa" class="a col-md-3" target='_blank'>Read wiki</a>
+  <a href="http://www.biography.com/people/mother-teresa-9504160" class="b col-md-3" target='_blank'>Biography</a>
+  <a href="https://www.youtube.com/watch?v=IG9eMWNG2Z0" class="c col-md-3" target='_blank'>Watch video</a>
+  <a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&sqi=2&ved=0ahUKEwj3p4__kZPPAhWBGZQKHTbODOUQFggnMAA&url=http%3A%2F%2Fwww.motherteresa.org%2F&usg=AFQjCNGWpA3surSK3Wh-LrOQIeyh2Pmuag&bvm=bv.133178914,d.dGo" class="d col-md-3" target='_blank'>Official site</a>
+  </div>
+</footer>
+</body>
